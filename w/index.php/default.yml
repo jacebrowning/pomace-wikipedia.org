@@ -1,0 +1,54 @@
+locators:
+  inclusions:
+    - mode: ''
+      value: ''
+      index: 0
+      uses: 0
+  exclusions:
+    - mode: ''
+      value: ''
+      index: 0
+      uses: 0
+actions:
+  - verb: ''
+    name: ''
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+  - verb: click
+    name: result_1
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: text
+        value: Result 1
+        index: 0
+        uses: -1
+      - mode: text
+        value: Result 1
+        index: 0
+        uses: -1
+      - mode: text
+        value: result 1
+        index: 0
+        uses: -1
+      - mode: value
+        value: Result 1
+        index: 0
+        uses: -1
+      - mode: value
+        value: Result 1
+        index: 0
+        uses: -1
+      - mode: value
+        value: result 1
+        index: 0
+        uses: -1
+      - mode: css
+        value: .searchmatch
+        index: 0
+        uses: 1

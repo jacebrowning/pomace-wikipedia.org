@@ -1,0 +1,72 @@
+locators:
+  inclusions:
+    -
+  exclusions:
+    -
+actions:
+  - verb: fill
+    name: search
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: name
+        value: search
+        index: 0
+        uses: 1
+      - mode: name
+        value: search
+        index: 0
+        uses: 0
+      - mode: id
+        value: search
+        index: 0
+        uses: 0
+      - mode: id
+        value: search
+        index: 0
+        uses: 0
+      - mode: aria-label
+        value: Search
+        index: 0
+        uses: 0
+      - mode: css
+        value: '[placeholder="Search"]'
+        index: 0
+        uses: 0
+      - mode: id
+        value: Search
+        index: 0
+        uses: 0
+  - verb: click
+    name: search
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: text
+        value: Search
+        index: 0
+        uses: 1
+      - mode: text
+        value: Search
+        index: 0
+        uses: 0
+      - mode: text
+        value: search
+        index: 0
+        uses: 0
+      - mode: value
+        value: Search
+        index: 0
+        uses: 0
+      - mode: value
+        value: Search
+        index: 0
+        uses: 0
+      - mode: value
+        value: search
+        index: 0
+        uses: 0

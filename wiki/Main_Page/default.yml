@@ -1,0 +1,33 @@
+locators:
+  inclusions:
+    - mode: ''
+      value: ''
+      index: 0
+      uses: 0
+  exclusions:
+    - mode: ''
+      value: ''
+      index: 0
+      uses: 0
+actions:
+  - verb: ''
+    name: ''
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+  - verb: fill
+    name: search_wikipedia
+    locators:
+      - mode: aria-label
+        value: Search Wikipedia
+        index: 0
+        uses: 2
+  - verb: type
+    name: enter
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
